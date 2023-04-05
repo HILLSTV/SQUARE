@@ -1,0 +1,83 @@
+.container {
+	width: 100%;
+	max-width: 600px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+h1 {
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+input[type="text"] {
+	padding: 10px;
+	margin-right: 10px;
+	font-size: 24px;
+}
+
+button {
+	padding: 10px;
+	font-size: 24px;
+}
+
+#result {
+	margin-top: 20px;
+	font-size: 36px;
+}
+
+/* Apply a reset to remove default padding and margin */
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+/* Set a default font size and family */
+body {
+	font-size: 16px;
+	font-family: Arial, sans-serif;
+}
+
+/* Center the header content */
+header {
+	text-align: center;
+	padding: 20px;
+	background-color: #333;
+	color: #fff;
+}
+
+/* Style the navigation links */
+nav ul {
+	list-style: none;
+	display: inline-block;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #ccc;
+}
+
+/* Center the main content */
+main {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+/* Style the footer */
+footer {
+	text-align: center;
+	padding: 20px;
+	background-color: #333;
+	color: #fff;
+}
